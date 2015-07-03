@@ -1,0 +1,204 @@
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:none;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+
+body{
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  line-height: 1.286;
+}
+
+ul,li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fed136
+}
+
+a:hover,a:focus,a:active,a.active {
+  color: #fec503
+}
+
+a,a:hover,a:focus,a:active,a.active {
+  outline: 0
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* ==========================================================================
+   Utilidades
+   ========================================================================== */
+
+.bgColor {
+  background-color: #FED136;
+}
+
+.bgGray {
+  background-color: #2E2E2E;;
+}
+
+.marBot {
+  margin-bottom: 20px;
+}
+
+.posRel {
+  position: relative;
+}
+
+/* ==========================================================================
+   Navegación
+   ========================================================================== */
+
+nav{
+  box-shadow: 5px 4px 5px #000;
+  margin-top:60px;
+}
+
+@media (min-width:992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   Servicios
+   ========================================================================== */
+
+.sectionHeading {
+  margin-bottom: 20px;
+}
+
+.serviceBox {
+  padding: 5%;
+  border: solid 1px;
+  box-shadow: 1px 1px 5px #777;
+}
+
+.serviceHeading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+.textPrimary {
+    color: #fed136
+}
+
+.text-muted {
+  color: #777;
+}
+
+.footerBox {
+  padding: 10px 0;
+}
+
+
+.tab {
+  padding-top: 30px;
+  position: relative;
+  overflow: hidden;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #fff;
+}
+
+.tabs {
+  display: table;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+}
+.tabs li {
+  float: left;
+  line-height: 38px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+.tabs a {
+  background-color: #eff0f2;
+  border-bottom: 1px solid #fff;
+  color: #888;
+  font-weight: 500;
+  display: block;
+  letter-spacing: 0;
+  outline: none;
+  padding: 0 20px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 2px solid #FED136;
+}
+
+.tabsItem {
+  display: none;
+  padding-top: 30px;
+}
+
+.tabsItem h3 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 30px;
+}
+
+.tabsItem p {
+  margin-bottom: 12px;
+}
+
+.tabsItem:first-child {
+  display: block;
+}
+
+.current a {
+  color: #2E2E2E;
+  background: #FED136;
+}
+
+.enviar {
+  background: #FED136;
+  border-radius: 2px;
+  border: none;
+  color: #2E2E2E;
+  float: right;
+  font-weight: bold;
+  margin-right: 15px;
+  padding: 9px 0;
+  width: 100%;
+}
+
+@media (min-width:992px) {
+  .enviar {
+    width: 20%
+  }
+}
+
+.datePicker {
+  color: #2E2E2E;
+  font-weight: bold;
+  width: 100%;
+}
+
+.ui-datepicker-trigger {
+  background-position: right;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 18px;
+  top: 1px;
+}
